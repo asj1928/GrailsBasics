@@ -34,7 +34,7 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     }
 //    logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
 }
-root(ERROR, ['STDOUT'])
+//root(ERROR, ['STDOUT'])
 logger "LSH3Changed",INFO,['STDOUT'],false
 root(INFO, ['STDOUT'])
 
